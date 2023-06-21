@@ -9,4 +9,3 @@ http.createServer(function (req, res) {
 console.log("server start!!!!!!")
 
 fs.writeFileSync("test.txt", "blah,blah,blah,blah,blah,blah,blah,blah,blah,", {flag:"w"});
-fs.writeFileSync("test.txt", "blah,blah,blah,blah,blah,blah,blah,blah,blah,", {flag:"w"});
