@@ -8,4 +8,5 @@ http.createServer(function (req, res) {
 }).listen(3000); //the server object listens on port 8080
 console.log("server start!!!!!!")
 
-fs.writeFileSync("test.txt", "blah,blah,blah,blah,blah,blah,blah,blah,", {flag:"w"});
+fs.writeFileSync("test.txt", "blah,blah,blah,blah,blah,blah,blah,blah,blah,", {flag:"w"});
+fs.writeFileSync("test.txt", "blah,blah,blah,blah,blah,blah,blah,blah,blah,", {flag:"w"});
